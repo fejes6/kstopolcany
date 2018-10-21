@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head>
+
+
+    <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1250">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>OZ Topoľčianske packy - Hľadáme domov</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+	
+		    <!-- Photos https://bootsnipp.com/snippets/Ale7g -->
+<style>			
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    //padding: 20px;
+    font-family: Arial;
+}
+
+.gallery {
+    padding: 20px;
+}
+
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    //margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+//***************
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.hovereffect:hover img {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+  filter: brightness(0.6);
+  -webkit-filter: brightness(0.6);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  background-color: transparent;
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+
+.hovereffect a, .hovereffect p {
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+
+</style>
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">OZ Topoľčianske packy</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Domov</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">O nás</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dogs.html">Hľadáme domov</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="help.html">Pomôžte nám</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cont.html">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/photos.jpeg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>Hľadáme domov</h1>
+              <span class="subheading">OZ Topoľčianske packy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+	   <!-- ******************* -->
+     <div class="gallery">
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="img/portfolio/dog1.jpg" alt="Mountains" style="width:100%">
+      <h3>Miško</h3>
+		<p>
+			Vek: 3 roky<br>
+			Očkovanie: &#10004;<br>
+			Odčervenie: &#10004;<br>
+			Odblšenie: &#10004;<br>
+			Čipovanie: &#10004;<br>
+			Kastrácia: &#10004;<br>
+			Vzrast: Malý<br>
+		</p>
+		<p>Miško je ďalší nechcený psík, ktorý sa našiel potulovať na ulici. Je maličkého vzrastu, má približne 3 roky. Miško je priateľský, prítulný, pokojný, nenáročný psík, je nekonfliktný, nemá problém s inými psíkmi.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="img/portfolio/dog2.jpg" alt="Lights" style="width:100%">
+      <h3>Stela</h3>
+      <p>
+		Vek: 2 roky<br>
+		Očkovanie: &#10004;<br>
+		Odčervenie: &#10004;<br>
+		Odblšenie: &#10004;<br>
+		Čipovanie: &#10004;<br>
+		Kastrácia: &#10004;<br>
+		Vzrast: Stredný
+	  </p>
+	  <p>Stela je 2 ročná fenka stredného vzrastu. Bola zachránená z rómskej osady, kde žila priviazaná na reťazi. Zo začiatku sa veľmi bála, no stačilo pár dní a pochopila, že už jej nikto neublíži :)</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="img/portfolio/dog3.jpg" alt="Nature" style="width:100%">
+      <h3>Boby</h3>
+      <p>
+		  Vek: 3 roky<br>
+		  Očkovanie: &#10004;<br>
+		  Odčervenie: &#10004;<br>
+		  Odblšenie: &#10004;<br>
+		  Čipovanie: &#10004;<br>
+		  Kastrácia: &#10004;<br>
+		  Vzrast: Stredný<br>
+	  </p>
+	  <p>Boby je 3-ročný kríženec stredného vzrastu, ktorý sa našiel na ulici. Je to skvelý bezproblémový psík, je spoločenský, kontaktný, drží sa pri ľuďoch, bude z neho skvelý rodinný psík, je vhodný aj k deťom.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="img/portfolio/dog4.jpg" alt="Mountains" style="width:100%">
+      <h3>Hugo</h3>
+      <p>Vek: 2 roky<br>
+		Očkovanie: &#10004;<br>
+		Odčervenie: &#10004;<br>
+		Odblšenie: &#10004;<br>
+		Čipovanie: &#10004;<br>
+		Kastrácia: &#10006;<br>
+		Vzrast: Stredný<br>
+	  </p>
+	  <p>Hugo je 2 ročný kríženec stredného vzrastu, ktorý žil v otrasných podmienkach v rómskej osade, bez búdy priviazaný o strom. Napriek nepeknej minulosti je Hugo priateľský, prítulný psík, užíva si ľudskú spoločnosť, je vďačný za každé pohladenie.</p>
+    </div>
+  </div>
+</div>
+
+
+
+        </div>
+       <!-- ********************* -->
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/karantenna_stanica_topolcany/">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/OZTopolcianskePacky/">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="mailto:slobodazvierat.to@gmail.com">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="copyright text-muted">&copy; Andrej Feješ 2018</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+	
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+    
+
+    
+   
+
+
+	
+  </body>
+
+</html>
